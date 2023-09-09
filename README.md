@@ -1,8 +1,18 @@
+# ObjectCounting
+
+## Giới thiệu
+
+ObjectCounting là dự án của Công ty Brycen VN và Logitem , nhằm mục tiêu xây dựng hệ thống tự động đếm số lượng sản phẩm trong nhà máy.
+
+## Các Bước Thực Hiện
+
+### Bước 1: 
 ```bash
 git clone https://github.com/ultralytics/yolov5  # clone
 cd yolov5
 pip install -r requirements.txt  # install
 ```
+### Bước 2:
 
 </details>
 
