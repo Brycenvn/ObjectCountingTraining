@@ -27,6 +27,6 @@ pip install -r requirements.txt  # install
 python train.py --img 640 --epochs 100 --data data/rebar.yaml --weights yolov5s.pt
 ```
 
-### Bước 3: Sử Dụng
+### Bước 4: Sử Dụng
 
-- [Inference](https://github.com/Brycenvn/ObjectCountingInference)
+- Sử dụng model đã được huấn luyện tại [Inference](https://github.com/Brycenvn/ObjectCountingInference)
