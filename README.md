@@ -18,10 +18,10 @@ pip install -r requirements.txt  # install
 
 - Download [dataset](https://drive.google.com/file/d/1-rRbIP2ds0zSjcI8j8o1ERm3ethAAiZr/view)
 - Chuyển đổi theo yolo format.
-- Tạo rebar.yaml cùng format với [coco128.yaml](https://github.com/Brycenvn/ObjectCountingTraining/blob/master/data/coco128.yaml
+- Thay đổi đường dẫn nơi chưa dataset trong [rebar.yaml](https://github.com/Brycenvn/ObjectCountingTraining/blob/master/data/rebar.yaml
 )
 ### Bước 3: Huấn luyện 
 
 ```bash
-python train.py --img 640 --epochs 100 --data rebar.yaml --weights yolov5s.pt
+python train.py --img 640 --epochs 100 --data data/rebar.yaml --weights yolov5s.pt
 ```
