@@ -20,8 +20,13 @@ pip install -r requirements.txt  # install
 - Chuyển đổi theo yolo format.
 - Thay đổi đường dẫn nơi chưa dataset trong [rebar.yaml](https://github.com/Brycenvn/ObjectCountingTraining/blob/master/data/rebar.yaml
 )
+
 ### Bước 3: Huấn luyện 
 
 ```bash
 python train.py --img 640 --epochs 100 --data data/rebar.yaml --weights yolov5s.pt
 ```
+
+### Bước 3: Sử Dụng
+
+- [Inference](https://github.com/Brycenvn/ObjectCountingInference)
