@@ -18,7 +18,8 @@ pip install -r requirements.txt  # install
 
 - Download [dataset](https://drive.google.com/file/d/1-rRbIP2ds0zSjcI8j8o1ERm3ethAAiZr/view)
 - Chuyển đổi theo yolo format.
-
+- Tạo rebar.yaml cùng format với [coco128.yaml](https://github.com/Brycenvn/ObjectCountingTraining/blob/master/data/coco128.yaml
+)
 ### Bước 3: Huấn luyện 
 
 ```bash
