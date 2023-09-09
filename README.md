@@ -20,3 +20,7 @@ pip install -r requirements.txt  # install
 - Chuyển đổi theo yolo format.
 
 ### Bước 3: Huấn luyện 
+
+```bash
+python train.py --img 640 --epochs 100 --data rebar.yaml --weights yolov5s.pt
+```
