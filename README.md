@@ -8,8 +8,8 @@ ObjectCounting là dự án của Công ty Brycen VN và Logitem , nhằm mục 
 
 ### Bước 1: 
 ```bash
-git clone https://github.com/ultralytics/yolov5  # clone
-cd yolov5
+git clone https://github.com/Brycenvn/ObjectCountingTraining  # clone
+cd ObjectCountingTraining
 pip install -r requirements.txt  # install
 ```
 ### Bước 2:
