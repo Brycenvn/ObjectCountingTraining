@@ -12,7 +12,7 @@ ObjectCounting là dự án của Công ty Brycen VN và Logitem , nhằm mục 
 git clone https://github.com/Brycenvn/ObjectCountingTraining  # clone
 cd ObjectCountingTraining
 pip install -r requirements.txt  # install
-Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg // kiểm tra môi trường đã được cài đặt thành công
+Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm tra môi trường đã được cài đặt thành công
 ```
 
 ### Bước 2: Chuẩn bị dataset 
