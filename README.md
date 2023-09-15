@@ -9,6 +9,8 @@ ObjectCounting là dự án của Công ty Brycen VN và Logitem , nhằm mục 
 ### Bước 1: Chuẩn bị môi trường
 
 ```bash
+conda create -n objectcounting_env python=3.9
+conda activate objectcounting_env
 git clone https://github.com/Brycenvn/ObjectCountingTraining  # clone
 cd ObjectCountingTraining
 pip install -r requirements.txt  # install
