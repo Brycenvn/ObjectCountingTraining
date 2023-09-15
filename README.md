@@ -16,6 +16,7 @@ git clone https://github.com/Brycenvn/ObjectCountingTraining  # clone
 cd ObjectCountingTraining
 pip install -r requirements.txt  # install
 Install torch, torchvision base on your cuda version # https://pytorch.org/
+pip install ultralytics
 Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm tra môi trường đã được cài đặt thành công
 ```
 
