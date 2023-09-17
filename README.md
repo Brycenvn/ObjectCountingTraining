@@ -24,7 +24,6 @@ Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm 
 
 - Download [dataset](https://drive.google.com/drive/folders/1N9SwvQ0cRwZWhkkW7O3D2gD17EboFB5y?usp=drive_link)
 - Thay đổi đường dẫn nơi chưa dataset trong rebar.yaml
-)
 
 ### Bước 3: Huấn luyện 
 
