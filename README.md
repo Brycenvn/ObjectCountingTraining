@@ -6,7 +6,7 @@ ObjectCounting là dự án của Công ty Brycen VN và Logitem , nhằm mục 
 
 ## Các Bước Thực Hiện
 
-### Bước 1: Chuẩn bị môi trường
+### Bước 1a: Chuẩn bị môi trường conda
 
 ```bash
 pip install --upgrade pip
@@ -16,6 +16,14 @@ git clone https://github.com/Brycenvn/ObjectCountingTraining  # clone
 cd ObjectCountingTraining
 Install torch, torchvision base on YOUR CUDA VERSION # https://pytorch.org/
 pip install -r requirements.txt  # install
+Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm tra môi trường đã được cài đặt thành công
+```
+
+### Bước 1b: Nếu không muốn sử dụng conda, xài docker.
+
+```bash
+sudo docker pull ultralytics/yolov5:latest
+sudo docker run --ipc=host -it --gpus all -v "$(pwd)"path/to/rebar.yml ultralytics/yolov5:latest
 Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm tra môi trường đã được cài đặt thành công
 ```
 
