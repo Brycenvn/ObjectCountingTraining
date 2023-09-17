@@ -27,7 +27,7 @@ Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm 
 ### Bước 3: Huấn luyện 
 
 ```bash
-python train.py --img 640 --epochs 100 --data data/rebar.yaml --weights yolov5s.pt
+python train.py --img 640 --epochs 100 --data path_to_rebar.yml --weights yolov5s.pt
 ```
 
 ### Bước 4: Sử Dụng
