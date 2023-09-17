@@ -22,9 +22,8 @@ Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm 
 
 ### Bước 2: Chuẩn bị dataset 
 
-- Download [dataset](https://drive.google.com/file/d/1-rRbIP2ds0zSjcI8j8o1ERm3ethAAiZr/view)
-- Chuyển đổi theo yolo format.
-- Thay đổi đường dẫn nơi chưa dataset trong [rebar.yaml](https://github.com/Brycenvn/ObjectCountingTraining/blob/master/data/rebar.yaml
+- Download [dataset](https://drive.google.com/drive/folders/1N9SwvQ0cRwZWhkkW7O3D2gD17EboFB5y?usp=drive_link)
+- Thay đổi đường dẫn nơi chưa dataset trong rebar.yaml
 )
 
 ### Bước 3: Huấn luyện 
