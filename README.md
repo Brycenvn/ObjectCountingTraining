@@ -23,7 +23,7 @@ Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm 
 
 ```bash
 sudo docker pull ultralytics/yolov5:latest
-sudo docker run --ipc=host -it --gpus all -v "$(pwd)"path/to/rebar.yml ultralytics/yolov5:latest
+sudo docker run --ipc=host -it --gpus all -v "$(pwd)"/rebar:/usr/src/datasets ultralytics/yolov5:latest
 Run python detect.py --weights yolov5s.pt --source data/images/bus.jpg # kiểm tra môi trường đã được cài đặt thành công
 ```
 
